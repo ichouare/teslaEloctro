@@ -1,0 +1,102 @@
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    letter-spacing: 1.1px;
+    line-height: 1.3;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.btn-groupe {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-groupe div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Boxbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.4px;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+
+.btn-items-left {
+    background-color: #181818;
+    color: #FFF;
+    margin-right: 10px;
+}
+
+.btn-items-right {
+    background-color: #EEEEEE;
+    color: #181818;
+}
+
+.down-icon {
+    color: #0069BD;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    animation: downup .8s ease-in-out infinite;
+}
+
+@keyframes downup {
+    0% {
+        transform: translateY(-10px)
+    }
+
+    50% {
+        transform: translateY(-5px)
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .btn-groupe {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .btn-items-left {
+        margin-bottom: 30px;
+
+    }
+}
