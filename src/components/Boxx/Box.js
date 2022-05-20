@@ -2,6 +2,7 @@ import react from 'react'
 import './style.css'
 import svg from '../assets/down-arrow.svg'
 import styled from  'styled-components'
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -27,18 +28,21 @@ function Box({title  , discription  , btnleft , btnright , backgroundImg }){
     return(
       
       <SectionBox style={{backgroundImage: `url(${backgroundImg})`}}>
-
+  <Fade bottom>
         <div className='Boxtext'>
         <h1>{title}</h1>
         <p>{discription}</p>
         </div>
+       </Fade>
        
         <div className="Boxbtn">
         <div className="btn-groupe">
+          <Fade bottom>
         <div>
       {(btnleft) && <button className="btn btn-items-left" >{btnleft}</button>  }  
       {(btnright) &&  <button className="btn btn-items-right" >{btnright}</button>  } 
       </div> 
+      </Fade>
          <img src={svg}  className="down-icon"/>
         </div>
         </div>
