@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/teslaEloctro/static/css/main.e7edbe79.css",
+    "main.js": "/teslaEloctro/static/js/main.1711ed22.js",
+    "static/media/solar-roof.jpg": "/teslaEloctro/static/media/solar-roof.acfd904501bf0bea5f9c.jpg",
+    "static/media/solar-panel.jpg": "/teslaEloctro/static/media/solar-panel.d7d441d74e34d37c2c00.jpg",
+    "static/media/model-y.jpg": "/teslaEloctro/static/media/model-y.30acb76aab6f760a753a.jpg",
+    "static/media/model-3.jpg": "/teslaEloctro/static/media/model-3.30651f796c26e128fa1b.jpg",
+    "static/media/model-x.jpg": "/teslaEloctro/static/media/model-x.25937b941a6599342671.jpg",
+    "static/media/model-s.jpg": "/teslaEloctro/static/media/model-s.b65171b9fc7d94857753.jpg",
+    "static/media/accessories.jpg": "/teslaEloctro/static/media/accessories.027ada94d343f5d81f6d.jpg",
+    "static/media/logo.svg": "/teslaEloctro/static/media/logo.a7b59bc6aae7059ffd7b4a18a105eb72.svg",
+    "index.html": "/teslaEloctro/index.html",
+    "static/media/down-arrow.svg": "/teslaEloctro/static/media/down-arrow.9b52668fb01a76a29986dae3032abd3f.svg",
+    "main.e7edbe79.css.map": "/teslaEloctro/static/css/main.e7edbe79.css.map",
+    "main.1711ed22.js.map": "/teslaEloctro/static/js/main.1711ed22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7edbe79.css",
+    "static/js/main.1711ed22.js"
+  ]
+}
