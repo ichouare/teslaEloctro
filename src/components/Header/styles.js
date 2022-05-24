@@ -47,7 +47,7 @@ a{
   }
 ` 
 export const  Compte = styled.nav`
-width:300px;
+width:200px;
 display:flex;
 justify-content:space-around;
 align-items:center;
@@ -67,7 +67,7 @@ a{
 
 export const NavToggle = styled.aside`
 background-color:#FFF;
-padding: 20px 40px;
+padding: 20px 60px;
 position:absolute;
 top:0;
 bottom: 0;
