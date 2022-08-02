@@ -67,12 +67,12 @@ a{
 
 export const NavToggle = styled.aside`
 background-color:#FFF;
-padding: 20px 60px;
+padding: 20px 20px;
 position:absolute;
 top:0;
 bottom: 0;
 right: 0;
-width: 400px;
+width: 300px;
 height:100vh;
 display: flex;
 flex-direction: column;
@@ -88,12 +88,21 @@ transform: ${props => props.open ?' translateX(0%)' : 'translateX(100%)' };
 ul{
   list-style: none;
   width: 100%;
-  height: 80% ;
+  height: 90% ;
   display: flex;
 flex-direction: column;
 align-items: flex-start;
 justify-content: space-between;
 margin-top: 20px;
+padding: 0 10px 0 0 ;
+}
+ul li{ 
+  width:100%;
+  color:#181818;
+  padding: 3px 0 5px  0 ; 
+  border-bottom : 2px solid #EEE;
+  text-align: left;
+  font-weight: 800;
 }
 ul li a{
      font-size: 16px;

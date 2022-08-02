@@ -2,9 +2,11 @@ import React , {useRef , useState} from 'react'
 import {Navigation  , Models  , Compte , NavToggle} from './styles'
 import { FaTimes ,  FaAlignRight   } from "react-icons/fa";
 import logo from '../assets/logo.svg'
+import {useSelector} from "react-redux"
 
 
  const  Header =()  =>{
+  const {carState} = useSelector(state => state)
    const [Show , setShow] = useState(false)
    const menuOpen =  useRef(null);
 
@@ -16,10 +18,11 @@ import logo from '../assets/logo.svg'
     <Navigation>
     <img src={logo} />
     <Models>
-    <a href="#" >model S</a>
-    <a href="#" >model 3</a>
-    <a href="#model_Y" >model Y</a>
-    <a href="#" >model X</a>
+    {
+    carState && carState.map((car, index) => {
+      return (<a key={index} href="#" >{car}</a>)
+    })}
+  
     </Models>
  
     <Compte>
@@ -32,6 +35,10 @@ import logo from '../assets/logo.svg'
     <NavToggle ref={menuOpen} open={Show}>
     <FaTimes className='icon' onClick={()=>handler()}/>
      <ul>
+    {
+    carState && carState.map((car, index) => {
+      return ( <li key={index}><a  href="#" >{car}</a>  </li>)
+    })}
     <li><a href="#">existing inventor</a></li>
     <li><a href="#">used inventor</a></li>
     <li><a href="#">trade-in</a></li>
