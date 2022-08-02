@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/teslaEloctro/static/css/main.e7edbe79.css",
-    "main.js": "/teslaEloctro/static/js/main.900f12ea.js",
+    "main.js": "/teslaEloctro/static/js/main.2f342f6d.js",
     "static/media/solar-roof.jpg": "/teslaEloctro/static/media/solar-roof.acfd904501bf0bea5f9c.jpg",
     "static/media/solar-panel.jpg": "/teslaEloctro/static/media/solar-panel.d7d441d74e34d37c2c00.jpg",
     "static/media/model-y.jpg": "/teslaEloctro/static/media/model-y.30acb76aab6f760a753a.jpg",
@@ -13,10 +13,10 @@
     "index.html": "/teslaEloctro/index.html",
     "static/media/down-arrow.svg": "/teslaEloctro/static/media/down-arrow.9b52668fb01a76a29986dae3032abd3f.svg",
     "main.e7edbe79.css.map": "/teslaEloctro/static/css/main.e7edbe79.css.map",
-    "main.900f12ea.js.map": "/teslaEloctro/static/js/main.900f12ea.js.map"
+    "main.2f342f6d.js.map": "/teslaEloctro/static/js/main.2f342f6d.js.map"
   },
   "entrypoints": [
     "static/css/main.e7edbe79.css",
-    "static/js/main.900f12ea.js"
+    "static/js/main.2f342f6d.js"
   ]
 }
