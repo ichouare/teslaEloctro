@@ -24,10 +24,10 @@ import Fade from 'react-reveal/Fade';
 
 
 
-function Box({title  , discription  , btnleft , btnright , backgroundImg }){
+function Box({id , title  , discription  , btnleft , btnright , backgroundImg }){
     return(
       
-      <SectionBox style={{backgroundImage: `url(${backgroundImg})`}}>
+      <SectionBox id={id} style={{backgroundImage: `url(${backgroundImg})`}}>
   <Fade bottom>
         <div className='Boxtext'>
         <h1>{title}</h1>

@@ -14,45 +14,44 @@ function App() {
   return (
     <div className="App">
     <Header />
-     <Box 
-            
+     <Box   id='model_S'
             title='model S' 
             discription='order Online for touchless delivery'
             btnleft="custumer order"
             btnright="exesting inventory"
             backgroundImg={Model_s}
 />
- <Box   id='#model_Y'
+ <Box      id='model_Y'
             title='model Y' 
             discription='order Online for touchless delivery'
             btnleft="custumer order"
             btnright="exesting inventory"
             backgroundImg={Model_Y}/>
-   <Box 
+   <Box     id='model_3'
             title='model 3' 
             discription='order Online for touchless delivery'
             btnleft="custumer order"
             btnright="exesting inventory"
             backgroundImg={Model_3} />
-   <Box 
+   <Box     id='model_X'
             title='model x' 
             discription='order Online for touchless delivery'
             btnleft="custumer order"
             btnright="exesting inventory"
             backgroundImg={Model_x} />
-      <Box 
+      <Box  id='Solar_Panels'
             title='Solar Panels' 
             discription='Lowest Cost Solar Panels in America'
             btnleft="custumer order"
             btnright="exesting inventory"
             backgroundImg={Solar} />
-      <Box 
+      <Box  id="Solar_Roof"
             title='Solar Roof' 
             discription='Produce Clean Energy From Your Roof'
             btnleft="custumer order"
             btnright="exesting inventory"
             backgroundImg={Solar_Roof} />
-      <Box 
+      <Box  id='Accessories'
             title='Accessories' 
             discription=''
             btnleft="custumer order"

@@ -1,7 +1,21 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 
-const CarsModule = ["model S" ,"model 3" ,"model Y" , "model X"]
+const CarsModule = [{
+      url:"#model_S" ,
+     name:"model S"} 
+     ,{
+    url:"#model_3" ,
+     name:"model 3",
+     }
+     ,{
+    url:"#model_Y" ,
+     name:"model Y",
+     }
+     ,{
+    url:"#model_X" ,
+     name:"model X",
+     }]
 
 const CartSlice   = createSlice({
     name:'car',

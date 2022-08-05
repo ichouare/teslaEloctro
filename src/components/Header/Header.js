@@ -16,11 +16,12 @@ import {useSelector} from "react-redux"
 
   return (
     <Navigation>
-    <img src={logo} />
+    <img src={logo} href="#model_S"/>
     <Models>
     {
     carState && carState.map((car, index) => {
-      return (<a key={index} href="#" >{car}</a>)
+      const {url , name} = car
+      return (<a key={index} href={url}  >{name}</a>)
     })}
   
     </Models>
@@ -32,12 +33,13 @@ import {useSelector} from "react-redux"
     </Compte>
     
 
-    <NavToggle ref={menuOpen} open={Show}>
+    <NavToggle href={menuOpen} open={Show}>
     <FaTimes className='icon' onClick={()=>handler()}/>
      <ul>
-    {
+     {
     carState && carState.map((car, index) => {
-      return ( <li key={index}><a  href="#" >{car}</a>  </li>)
+      const {url , name} = car
+      return (<li  key={index} ><a href={url}  >{name}</a> </li>)
     })}
     <li><a href="#">existing inventor</a></li>
     <li><a href="#">used inventor</a></li>

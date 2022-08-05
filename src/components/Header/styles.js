@@ -14,11 +14,12 @@ align-items: center;
 padding: 0px 40px;
 z-index: 99;
 box-shadow: 0px 0px 20px 0px rgba(128,128,128,0.36) ;
+cursor:pointer;
 
 
 @media (max-width:768px) {
     justify-content: space-between;
-    padding: 0  30px; 
+    padding: 0  10px; 
   }
 `
 
